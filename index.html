@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background: url("img/EAcq.gif") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(1000, 1000, 1000, 0.3);
+            backdrop-filter: blur(3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .box:hover {
+            background: rgba(100, 1000, 1000, 0.3);
+            box-shadow: 0 0px 8px rgba(0,0,0,1);
+            transition: 0.3s;
+        }
+
+        .box i {
+            font-size: 36px;
+            color: #555;
+        }
+
+        .box img {
+            width: 40px;
+            height: auto;
+            transition: 0.3s;
+        }
+
+        .box:hover img {
+            width: 50px;
+            height: auto;
+            transition: 0.3s;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <a href="https://wa.me/653578617" target="_blank">
+            <div class="box">
+                <img src="img/whatsapp.png">
+            </div>
+        </a>
+
+        <a href="https://www.instagram.com/USUARIO" target="_blank">
+            <div class="box">
+                <img src="img/instagram.png">
+            </div>
+        </a>
+
+        <a href="https://t.me/XDavidGarciaTorres" target="_blank">
+            <div class="box">
+                <img src="img/telegram.png">
+            </div>
+        </a>
+
+        <a href="https://twitter.com/USUARIO" target="_blank">
+            <div class="box">
+                <img src="img/linkedin.png">
+            </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/USUARIO" target="_blank">
+            <div class="box">
+                <img src="img/X.png">
+            </div>
+        </a>
+
+    </div>
+
+</body>
+
+</html>
